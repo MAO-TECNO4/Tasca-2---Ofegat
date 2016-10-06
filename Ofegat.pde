@@ -1,0 +1,88 @@
+//inici i configuració
+void setup(){
+  size(1366, 788);
+       stroke(0);
+       fill(255);
+       background(170,90);
+}
+
+void draw(){
+  //corda
+  line(600,200,600,360);
+  //cames
+  fill(#F3E2A9);
+  line(600,480,550,580);
+  line(600,480,650,580);
+  //braços
+  fill(100,34);
+  line(550,430,600,380);
+  line(650,430,600,380);
+  //roba
+  stroke(100,34);
+  rect(590,390,20,90);
+  triangle(600,380,590,390,610,390);
+   stroke(0);
+   line(590,390,590,480);
+   line(610,390,610,480);
+   line(590,480,610,480);
+  //cara
+  fill(#F3E2A9);
+  ellipse(600,335,60,60);
+  //ulls
+  fill(255);
+  ellipse(590,330,15,15);
+  ellipse(610,330,15,15);
+  //mans
+  fill(#F3E2A9);
+  ellipse(550,430,20,20);
+  ellipse(650,430,20,20);
+  //iris
+  fill(#61210B);
+  ellipse(610,330,9,9);
+  ellipse(590,330,9,9);
+  //pupil·les
+  fill(0);
+  ellipse(610,330,3,3);
+  ellipse(590,330,3,3);
+  //nas
+  fill(#F3E2A9);
+  rect(596,339,7,7);
+  rect(595,342,9,7);
+  //boca
+  fill(#F78181);
+  rect(592,353,15,5);
+  //celles
+  fill(0);
+  rect(581,320,15,3);
+  rect(603,320,15,3);
+  //cabell1
+  fill(0);
+  ellipse(587,311,15,14);
+  ellipse(611,311,15,14);
+  ellipse(579,313,24,14);
+  ellipse(619,313,24,14);
+  ellipse(603,306,18,19);
+  ellipse(595,306,18,19);
+  //orelles
+  fill(#F3E2A9);
+  ellipse(569,330,15,16);
+  ellipse(630,330,15,16);
+  //cabell2
+  fill(0);
+  ellipse(572,325,15,16);
+  ellipse(627,325,15,16);
+  ellipse(572,335,15,16);
+  ellipse(627,335,15,16);
+  //subjecció horca
+fill(50,18);
+rect(600,200,300,50);
+rect(900,200,50,475);
+rect(700,615,400,60);
+
+//horca
+fill(18,10);
+stroke(18,10);
+rect(585,365,30,15);
+ellipse(585,373,15,15);
+ellipse(615,373,15,15);
+}
